@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tagesschrift&display=swap');     
+
 body{
     transition: transform 0.3s ease-in-out;
 }
@@ -36,30 +38,44 @@ main{
     justify-content: center;
     align-items: center;
     padding: 20px;
-    gap: 10px;
+    gap: 40px;
     flex-wrap: wrap;
 }
-
 
 article{
     background-color: #b0b0b0;
     width: 40%;
-    padding: 10px;
+    padding: 35px;
+    gap: 60px;
 }
 
 .bloco{
     display: flex;
 }
 
-.bloco img{
-    margin-left: 50px;
+figure{
     margin: 0;
+    margin-left: 10px;
+}
+.bloco img{
+    margin: 0 auto;
     padding: 0;
 }
 
+footer{
+    text-align: center;
+    background-color: #333;
+    width: 1000px;
+    margin: auto;
+    padding: 1px;
+}
 @media (max-width: 768px){
     body{
         transform: translateY(-100px);
+    }
+
+    header{
+     margin-top: 70px;   
     }
 
     .bloco{
@@ -77,6 +93,11 @@ article{
 
     body{
         margin: 0;
+        font-family: Poppins;
+    }
+
+    footer{
+        width: 100%;
     }
 }
 
