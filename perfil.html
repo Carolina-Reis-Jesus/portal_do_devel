@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="perfil.css">
     <title>Document</title>
 </head>
 <body>
@@ -12,10 +13,10 @@
 
     <div class="container">
 		<nav>
-				<ul>
-		            <li><a href="index.html">🏠 Início</li></a>
-		            <li><a href="perfil.html">👤 Perfil</li></a>
-		            <li><a href="configuracoes.html">⚙️ Configurações</li></a>
+				<ul class="lista-nav">
+		            <li class="item-lista-nav"><a href="index.html">🏠 Início</li></a>
+		            <li class="item-lista-nav"><a href="perfil.html">👤 Perfil</li></a>
+		            <li class="item-lista-nav"><a href="configuracoes.html">⚙️ Configurações</li></a>
                 </ul>
         </nav>
     </div>
@@ -31,14 +32,40 @@
             </div>
         </article>
 
-        <article class="secundario">
+        <article>
             <h2>preferências de noticias</h2>
             <div class="lista_noticias">
                 <ul>
-                    <li>Tecnologia</li>
+                    <li>Tecnologia, Filmes e séries</li>
+                    <li>Fotos Favoritas: Laika, meu moris e familia</li>
                 </ul>
             </div>
         </article>
+
+        <article>
+            <h2>Atividades recentes</h2>
+            <div class="bloco_atividades">
+                <ul>
+                    <li>Estudo de git e responsividade</li>
+                    <li>Brincar de boliche com minha irmã</li>
+                    <li>Aruumar a casa </li>
+                    <li>Passeio com my love</li>
+                </ul></div>
+        </article>
+
+        <article>
+            <div class="bloco_input">
+            <label for="checkbox"> Receber notificações por email</label>
+            <input type="checkbox" name="checkbox" id="checkbox">  </div>
+            <div class="bloco_input">
+            <label for="radio">Modo escuro</label>
+            <input type="radio" name="radio" id="radio"></div>
+            <button>Salvar configurações</button>
+        </article>
     </main>
+
+    <footer>
+        num sei oq la num sei oq la
+    </footer>
 </body>
 </html>
